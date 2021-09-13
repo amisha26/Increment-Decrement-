@@ -4,7 +4,6 @@
 * An increment decrement application using useState.
 
 ## To run the application:
-
 ```
 git clone
 cd file_name
