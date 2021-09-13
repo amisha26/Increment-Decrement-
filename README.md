@@ -1,15 +1,13 @@
-# DEMONSTRATION
+### [Live Demo!](https://incrdecr.netlify.app/)
 
-https://incrdecr.netlify.app/
+* Beginner project in React-useState Hook
+* An increment decrement application to understand the implementation of useState() 
 
-An increment decrement application to understand the implementation of useState() in React Hooks
+## To run the application:
 
-# To run the application:
-
+```
 git clone
-
 cd file_name
-
 npm install
-
 npm start
+```
