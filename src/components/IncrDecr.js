@@ -10,30 +10,22 @@ const IncrDecr = () => {
   };
 
   const Decr = () => {
-    if (count > 0) {
-      setCount(count - 1);
-    } else {
-      alert("Decrement cannot be done");
-    }
+    setCount(count - 1);
   };
 
   return (
-    <div>
-      <h1>{count}</h1>
-      <Button onClick={Incr} variant="success">
-        Increment
-      </Button>
-      <Button onClick={Decr} variant="danger">
-        Decrement
-      </Button>
-      <Button
-        onClick={() => {
-          setCount(0);
-        }}
-        variant="primary"
-      >
-        Clear
-      </Button>
+    <div className="main">
+      <div className="main-head">
+        <h1>{count}</h1>
+      </div>
+      <div className="main-button">
+        <Button onClick={Incr} variant="success">
+          Increment
+        </Button>
+        <Button onClick={Decr} variant="danger">
+          Decrement
+        </Button>
+      </div>
     </div>
   );
 };

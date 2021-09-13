@@ -4,3 +4,18 @@
     box-sizing: border-box;
 }
 
+/* css for app.js */
+
+.App{
+    display: flex;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+/* css for IncDecrp.js */
+
+.main-head h1{ 
+    text-align: center;
+}
