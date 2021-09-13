@@ -10,3 +10,5 @@ cd file_name
 npm install
 npm start
 ```
+
+### To know more about [React-Hook](https://reactjs.org/docs/hooks-intro.html)
