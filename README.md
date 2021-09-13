@@ -1,7 +1,7 @@
 ### [Live Demo!](https://incrdecr.netlify.app/)
 
-* Beginner project in React-useState Hook
-* An increment decrement application to understand the implementation of useState() 
+* A beginner project to understand React-useState Hook.
+* An increment decrement application using useState.
 
 ## To run the application:
 
